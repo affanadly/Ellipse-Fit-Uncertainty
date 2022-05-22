@@ -1,0 +1,4 @@
+numpy
+lsq-ellipse
+uncertainties
+matplotlib
