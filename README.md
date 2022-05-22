@@ -4,7 +4,7 @@ Ellipse fitting with parameter uncertainties, meant for bowshock maser fitting
 
 ## Process
 * Ellipse fitting on 2D data using [`lsq-ellipse`](https://pypi.org/project/lsq-ellipse/)
-* Estimates the error using the $\chi^2$ distribution based on [McDonald, 2014](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=W9iFjWQAAAAJ&cstart=400&pagesize=100&citation_for_view=W9iFjWQAAAAJ:SgM-ki2adj0C)
+* Estimates the error using the reduced chi-squared distribution based on [McDonald, 2014](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=W9iFjWQAAAAJ&cstart=400&pagesize=100&citation_for_view=W9iFjWQAAAAJ:SgM-ki2adj0C)
 * Convert the fitting coefficients into physical ellipse paramters while propagating errors using [`uncertainties`](https://pythonhosted.org/uncertainties/)
 
 ## Related publication
