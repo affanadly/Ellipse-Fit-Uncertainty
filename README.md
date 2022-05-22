@@ -1,6 +1,6 @@
 # Estimation of Errors in Ellipse Fitting
 
-Ellipse fitting with parameter uncertainties, meant for bowshock maser fitting
+Code to fit a 2D ellipse data and estimate the errors for the physical ellipse parameters, meant to be used for the analysis of VLBI bowshock maser data in tracking a protostellar bowshock.
 
 ## Process
 * Ellipse fitting on 2D data using [`lsq-ellipse`](https://pypi.org/project/lsq-ellipse/)
@@ -33,7 +33,7 @@ where `x` and `y` are the x- and y-coordinates of the input data. The function w
 
 ## Example
 
-To test the fitting, utilize `test_data.txt` as an input,
+To test the fitting with `test_data.txt` as an input, execute the following (or run [ellipse_test.py](https://github.com/affanadly/Ellipse-Fit-Uncertainty/blob/main/ellipse_test.py))
 
 ```python
 import numpy as np
