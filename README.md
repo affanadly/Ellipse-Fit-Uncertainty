@@ -65,10 +65,12 @@ plt.show()
 ```
 
 ### Parameters obtained: 
-* Center, ($-1.26\pm 0.06$, $0.74\pm 0.05$) 
-* Semi major axis, $4.97\pm 0.08$
-* Semi minor axis, $3.13\pm 0.04$, 
-* Rotation angle of $(-0.420\pm 0.016)$ rad.
+
+Center, ($-1.26 \pm 0.06$, $0.74 \pm 0.05$)  
+Semi major axis, $4.97 \pm 0.08$  
+Semi minor axis, $3.13 \pm 0.04$  
+Rotation angle of $(-0.420 \pm 0.016)$ rad.
+
 
 ### Output plot:
 ![fitting output](https://github.com/affanadly/Ellipse-Fit-Uncertainty/blob/main/Output.png)
