@@ -15,11 +15,15 @@ The code was developed for (To be added).
 
 Add the ellipseunc.py in the working directory and import in the Python code using 
 
-```from ellipseunc import fit```. 
+```python
+from ellipseunc import fit
+``` 
 
 To perform the fitting, execute the function
 
-```fit(x,y)``` 
+```python
+fit(x,y)
+``` 
 
 where `x` and `y` are the x- and y-coordinates of the input data. The function will return a 4-tuple consisting of 
 * Center coordinates (a 2-tuple of the x- and y-coordinate of the center of the ellipse)
