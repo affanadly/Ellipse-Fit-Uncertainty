@@ -7,6 +7,8 @@ Code to fit a 2D ellipse data and estimate the errors for the physical ellipse p
 * Estimates the error using the reduced chi-squared distribution based on [McDonald, 2014](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=W9iFjWQAAAAJ&cstart=400&pagesize=100&citation_for_view=W9iFjWQAAAAJ:SgM-ki2adj0C)
 * Convert the fitting coefficients into physical ellipse paramters while propagating errors using [`uncertainties`](https://pythonhosted.org/uncertainties/)
 
+The entire process is described in detail in [derivation.ipynb](https://github.com/affanadly/Ellipse-Fit-Uncertainty/blob/main/derivation.ipynb), along with results for a randomly generated ellipse.
+
 ## Related publication
 
 The code was developed for (To be added).
