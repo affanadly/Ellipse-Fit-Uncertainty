@@ -3,7 +3,7 @@
 Code to fit a 2D ellipse data and estimate the errors for the physical ellipse parameters, meant to be used for the analysis of VLBI bowshock maser data in tracking a protostellar bowshock.
 
 ## Process
-* Ellipse fitting on 2D data using [`lsq-ellipse`](https://pypi.org/project/lsq-ellipse/)
+* Ellipse fitting on 2D data using [`lsq-ellipse`](https://pypi.org/project/lsq-ellipse/) (Based on [Halir & Flusser, 1998](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.1.7559))
 * Estimates the error using the reduced chi-squared distribution based on [McDonald, 2014](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=W9iFjWQAAAAJ&cstart=400&pagesize=100&citation_for_view=W9iFjWQAAAAJ:SgM-ki2adj0C)
 * Convert the fitting coefficients into physical ellipse paramters while propagating errors using [`uncertainties`](https://pythonhosted.org/uncertainties/)
 
