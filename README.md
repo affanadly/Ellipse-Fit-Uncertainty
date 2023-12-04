@@ -15,7 +15,7 @@ Other convienence functions:
 
 ## Related publication
 
-The code was developed for (To be added).
+The code was developed for fitting of double bowshock maser features in the high-mass protostar AFGL 5142 (See [Rosli et al., 2023](https://arxiv.org/abs/2311.17636)).
 
 ## Usage
 
