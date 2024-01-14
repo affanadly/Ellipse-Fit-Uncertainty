@@ -6,7 +6,7 @@ Python library for fitting a 2D ellipse data, estimate the errors for the physic
 1. Ellipse fitting using numerically stable direct least squares based on Fitzgibbon, Pilu, & Fisher, 1996 and Halir & Flusser, 1998.
 2. Estimation of errors by minimizing the $\chi^2$ function based on McDonald, 2014.
 3. Converting the fit parameters to the usual ellipse parameters while propagating the error using the `uncertainties` package. 
-4. Calculation of confidence interval/area using the two-norm distance approximation with a Gaussianly-distributed residuals based on O'Leary & Zsombor-Murray, 2004.
+4. Calculation of confidence interval/area using the two-norm distance approximation with Gaussianly-distributed residuals based on O'Leary & Zsombor-Murray, 2004.
 
 Other convienence functions:
 * Generating an ellipse with noise
